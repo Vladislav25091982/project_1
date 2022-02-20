@@ -1,0 +1,67 @@
+.header{
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 44px;
+    margin-bottom: 40px;
+  }
+  &__logo{
+
+  }
+  &__input-inner{
+    flex: 0 1 600px;
+    position: relative;
+    input{
+      width: 100%;
+      height: 40px;
+      border: 1px solid lightgrey;
+      border-radius: 2px;
+      padding-left: 30px;
+      &:focus{
+        outline: none;
+      }
+    }
+    img{
+      position: absolute;
+      left: 10px;
+      top: 11px;
+    }
+  }
+  &__buttons{
+    display: flex;
+  }
+  &__sing, &__busket{
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    @media (max-width:480px) {
+      padding: 4px 8px;
+      font-size: 15px;
+    }
+    img{
+      margin-right: 4px;
+    }
+    span{
+    }
+  }
+  &__sing{
+    background-color: #1890FF;
+    margin-right: 10px;
+    span{
+      color: #fff;
+    }
+  }
+  &__busket{
+    border: 1px solid lightgrey;
+    color: #595959;
+  }
+}
+
+.header-menu{
+  @media (max-width:767px) {
+    display: none;
+  }
+}

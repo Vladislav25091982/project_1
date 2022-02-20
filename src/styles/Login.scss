@@ -1,0 +1,89 @@
+.login{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.212);
+  position: fixed;
+  z-index: 11;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__block{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 25px 30px;
+    max-width: 600px;
+    width: 100%;
+  }
+  &__del{
+    margin-bottom: 10px;
+    cursor: pointer;
+    img{
+      display: block;
+      margin-left: auto;
+      width: 22px;
+    }
+  }
+  &__title{
+    font-size: 36px;
+    color: rgb(26, 26, 26);
+    margin: 0;
+    margin-bottom: 25px;
+  }
+  &__info{
+    display: block;
+    color: gray;
+    margin-bottom: 5px;
+  }
+  &__phone{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    &:focus{
+      outline: none;
+    }
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+    }
+    &.error{
+      border: 1px solid red;
+    }
+  }
+  &__info-text{
+    color: gray;
+    span{
+      color: rgb(28, 201, 28);
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    margin: 0;
+    margin-bottom: 25px;
+
+  }
+  &__button-inner{
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__submit{
+    padding: 10px 13px;
+    background-color: #1890FF;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  &__valid{
+    color: rgb(0, 132, 255);
+    margin-top: 18px;
+    display: block;
+    &.error{
+      color: red;
+    }
+  }
+}

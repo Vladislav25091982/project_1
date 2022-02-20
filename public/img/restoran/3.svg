@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 56.3 (101010) - https://sketch.com -->
+    <title>da47ebe5-d834-40d7-b0cd-1f7ccc3af108@3.00x</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="96.746297%" x2="50%" y2="3.12250226e-15%" id="linearGradient-1">
+            <stop stop-color="#38B899" offset="0%"></stop>
+            <stop stop-color="#12A2E1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Styles" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-Time">
+            <g id="Group">
+                <rect id="Body" x="0" y="0" width="32" height="32"></rect>
+                <path d="M16,0 C24.836556,0 32,7.163444 32,16 L16,16 L16,0 Z" id="Combined-Shape" fill="url(#linearGradient-1)" fill-rule="nonzero" opacity="0.5"></path>
+                <path d="M16,30 C23.7319865,30 30,23.7319865 30,16 C30,8.2680135 23.7319865,2 16,2 C8.2680135,2 2,8.2680135 2,16 C2,23.7319865 8.2680135,30 16,30 Z M16,28 C9.372583,28 4,22.627417 4,16 C4,9.372583 9.372583,4 16,4 C22.627417,4 28,9.372583 28,16 C28,22.627417 22.627417,28 16,28 Z" id="Oval" fill="#2E2E33" fill-rule="nonzero"></path>
+                <rect id="Rectangle" fill="#2E2E33" x="15" y="7" width="2" height="10"></rect>
+                <rect id="Rectangle" fill="#2E2E33" transform="translate(19.000000, 16.000000) rotate(-270.000000) translate(-19.000000, -16.000000) " x="18" y="12" width="2" height="8"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+.curier{
+  &__title{
+    font-size: 42px;
+    margin-bottom: 30px;
+  }
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &__block{
+    max-width: 350px;
+    margin-bottom: 15px;
+  }
+  &__sub-title{
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  &__text{
+    margin: 0;
+    font-size: 20px;
+    color: gray;
+  }
+}

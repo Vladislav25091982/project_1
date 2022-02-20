@@ -1,0 +1,144 @@
+.basket{
+  z-index: 11;
+  left: 0;
+  top: 0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.212);
+  &__block{
+    max-width: 780px;
+    max-height: 550px;
+    width: 100%;
+    height: 100%;
+    padding: 40px 45px;
+    background-color: #fff;
+    @media (max-width:480px) {
+      padding: 12px 8px;
+    }
+  }
+  &__title-inner{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 45px;
+   img{
+     cursor: pointer;
+   }
+  }
+  &__title{
+    font-size: 36px;
+    margin: 0;
+  } 
+  &__button-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width:480px){
+      flex-direction: column-reverse;
+    }
+  }
+  &__total{
+    background-color: #262626;
+    padding: 15px 20px;
+    border-radius: 4px;
+    span{
+      color: #fff;
+      font-weight: 700;
+      font-size: 20px;
+    }
+  }
+  &__onchen{
+    background-color: #1890FF;
+    color: #fff;
+    border-radius: 4px;
+    margin-right: 18px;
+    border: none;
+    font-size: 16px;
+    padding: 10px 16px;
+    cursor: pointer;
+    @media (max-width:480px){
+      margin-bottom: 10px;
+    }
+  }
+  &__back{
+    background-color: #fff;
+    border: 1px solid lightgray;
+    padding: 10px 16px;
+    color: #595959;
+    font-size: 16px;
+    cursor: pointer;
+  }
+}
+
+.basket-block{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-right: 11px;
+  align-items: center;
+  
+  &__first{
+
+  }
+  &__name{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    @media (max-width:480px){
+      font-size: 14px;
+    }
+  }
+  &__last{
+    display: flex;
+    align-items: center;
+  }
+  &__inner{
+    max-height: 300px;
+    height: 100%;
+  }
+  &__del{
+    cursor: pointer;
+    img{
+      width: 17px;
+    }
+  }
+}
+
+.basket-count{
+  margin-right: 20px;
+  display: flex;
+  &__dic,  &__count,  &__inc{
+    width: 40px;
+    height: 32px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width:480px){
+      width: 25px;
+      height: 20px;
+    }
+  }
+  &__dic, &__inc{
+    border: 1px solid #40A9FF;
+    color: #40A9FF;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  &__dic{
+
+  }
+  &__count{
+    font-size: 16px;
+  }
+  &__inc{
+
+  }
+}

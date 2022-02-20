@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+}
+.App{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.back-gorodun{
+  height: 100%;
+  flex: 1 0 100%;
+  padding-bottom: 60px;
+  background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%);
+}
+.container{
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}

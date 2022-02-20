@@ -1,0 +1,23 @@
+.pres{
+  &__title{
+    font-size: 50px;
+    @media (max-width:767px){
+      font-size: 28px;
+    }
+  }
+  &__banner{
+    img{
+      margin: 0 auto;
+      display: block;
+      width: 100%;
+    }
+  }
+  &__text{
+    font-size: 22px;
+    color: #2e2e33;
+    @media (max-width:767px){
+      font-size: 22px;
+    }
+    
+  }
+}

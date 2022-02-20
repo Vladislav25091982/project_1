@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 56.3 (101010) - https://sketch.com -->
+    <title>42dbb63f-a05e-44b1-9e2a-f93ae445ecc6@3.00x</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="96.746297%" x2="50%" y2="3.12250226e-15%" id="linearGradient-1">
+            <stop stop-color="#38B899" offset="0%"></stop>
+            <stop stop-color="#12A2E1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Styles" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-Growtn">
+            <g id="Group">
+                <rect id="Body" x="0" y="0" width="32" height="32"></rect>
+                <polygon id="Triangle" fill="url(#linearGradient-1)" fill-rule="nonzero" opacity="0.5" points="12.5 0 25 25 0 25"></polygon>
+                <path d="M27.9316246,6.37769254 C21.1127163,5.52957852 15.7491624,6.36473874 11.8409627,8.8831732 C5.97866318,12.6608249 3.74698153,16.6036932 3.74698153,20.0040838 C3.74698153,22.2710109 4.50893703,23.9229995 6.03284801,24.9600497 C7.22995042,22.3473225 8.61896671,20.123447 10.1998969,18.2884231 C11.7808271,16.4533992 13.7141948,14.884656 16,13.5821936 C14.2691268,16.2336452 12.9907882,18.247098 12.1649843,19.6225521 C11.3391803,20.9980061 10.2503906,23.4188032 8.89861506,26.8849432 C11.7914808,28.6617159 14.5444787,28.4736997 17.1576086,26.3208946 C21.0773035,23.0916869 22.3974959,14.5919738 23.3973046,12.1349828 C24.0638437,10.4969888 25.5752837,8.57789203 27.9316246,6.37769254 Z" id="Path-3" stroke="#2E2E33" stroke-width="2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

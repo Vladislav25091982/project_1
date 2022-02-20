@@ -1,0 +1,53 @@
+.restorans{
+  &__title{
+    font-size: 36px;
+    line-height: 1;
+    margin-bottom: 44px;
+  }
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media (max-width:800px) {
+      justify-content: center;
+    }
+  }
+  &__title-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__input{
+    position: relative;
+    @media (max-width:767px) {
+      display: none;
+    }
+    input{
+      width: 306px;
+      display: block;
+      height: 34px;
+      border: 1px solid lightgrey;
+      border-radius: 3px;
+      padding-left: 32px;
+      &:focus{
+        outline: none;
+      }
+      &::placeholder{
+        font-size: 14px;
+        color: #BFBFBF;
+      }
+      
+    }
+    img{
+      position: absolute;
+      left: 10px;
+      top: 8px;
+    }
+  }
+  &__link{
+    display: block;
+    text-decoration: none;
+    color: black;
+  }
+}
+
